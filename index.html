@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="By Step Solutions - Soluciones software a medida: páginas web, aplicaciones móviles, agentes de IA y automatizaciones tecnológicas." />
+  <meta name="keywords" content="desarrollo web, aplicaciones móviles, agentes IA, automatización, software" />
+  <meta property="og:title" content="By Step Solutions" />
+  <meta property="og:description" content="Soluciones software que transforman tu negocio, paso a paso." />
+  <meta property="og:url" content="https://bystepsolutions.tech" />
+  <title>By Step Solutions</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>
+        By Step Solutions
+        <span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="#products">Productos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="hero-badge">Soluciones a tu medida</div>
+      <h1>
+        Transformamos ideas en<br />
+        <span class="gradient-text">software real</span>
+      </h1>
+      <p class="hero-subtitle">
+        Desarrollamos páginas web, aplicaciones móviles, agentes de inteligencia artificial
+        y automatizaciones que hacen crecer tu negocio, <strong>paso a paso</strong>.
+      </p>
+      <div class="hero-actions">
+        <a href="#products" class="btn btn-primary">Ver productos</a>
+        <a href="#contact" class="btn btn-outline">Contáctanos</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="code-card">
+        <div class="code-dots">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+        </div>
+        <pre class="code-block"><span class="c-blue">const</span> <span class="c-green">solution</span> = <span class="c-blue">await</span> <span class="c-yellow">byStep</span><span class="c-white">.</span><span class="c-green">build</span><span class="c-white">({</span>
+  <span class="c-red">idea</span><span class="c-white">:</span> <span class="c-orange">"tu proyecto"</span><span class="c-white">,</span>
+  <span class="c-red">quality</span><span class="c-white">:</span> <span class="c-orange">"premium"</span><span class="c-white">,</span>
+  <span class="c-red">delivery</span><span class="c-white">:</span> <span class="c-orange">"a tiempo"</span>
+<span class="c-white">});</span>
+
+<span class="c-blue">console</span><span class="c-white">.</span><span class="c-green">log</span><span class="c-white">(</span><span class="c-orange">"✓ Listo para el mundo"</span><span class="c-white">);</span></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Especialidades</span>
+        <h2>¿En qué podemos ayudarte?</h2>
+        <p>Cubrimos todo el espectro del desarrollo de software moderno.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon icon-web">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <rect x="2" y="3" width="20" height="14" rx="2"/>
+              <path d="M8 21h8M12 17v4"/>
+              <path d="M7 8l3 3-3 3"/>
+              <path d="M13 14h4"/>
+            </svg>
+          </div>
+          <h3>Páginas Web</h3>
+          <p>Sitios modernos, rápidos y optimizados para buscadores. Desde landing pages hasta plataformas completas.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon icon-mobile">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <rect x="5" y="2" width="14" height="20" rx="2"/>
+              <circle cx="12" cy="18" r="1"/>
+              <path d="M9 6h6"/>
+            </svg>
+          </div>
+          <h3>Aplicaciones Móviles</h3>
+          <p>Apps nativas y multiplataforma para iOS y Android. Experiencias fluidas que tus usuarios amarán.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon icon-ai">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M12 2a4 4 0 0 1 4 4v1h1a3 3 0 0 1 0 6h-1v1a4 4 0 0 1-8 0v-1H7a3 3 0 0 1 0-6h1V6a4 4 0 0 1 4-4z"/>
+              <circle cx="12" cy="12" r="2"/>
+              <path d="M6 12H2M22 12h-4"/>
+            </svg>
+          </div>
+          <h3>Agentes de IA</h3>
+          <p>Sistemas inteligentes que automatizan decisiones y procesos. Chatbots, asistentes y flujos cognitivos.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon icon-auto">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+            </svg>
+          </div>
+          <h3>Automatizaciones</h3>
+          <p>Conecta tus herramientas, elimina tareas repetitivas y escala operaciones sin aumentar el equipo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="products" id="products">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Portafolio</span>
+        <h2>Nuestros productos</h2>
+        <p>Soluciones listas para usar. Haz clic para acceder a cada una.</p>
+      </div>
+      <div class="products-grid" id="products-grid">
+
+        <!-- CARD DE EJEMPLO — puedes duplicar y adaptar -->
+        <div class="product-card coming-soon">
+          <div class="product-badge">Próximamente</div>
+          <div class="product-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+              <path d="M2 17l10 5 10-5"/>
+              <path d="M2 12l10 5 10-5"/>
+            </svg>
+          </div>
+          <h3>Nuevo producto en camino</h3>
+          <p>Estamos construyendo algo increíble. Contáctanos para saber más o solicitar un desarrollo personalizado.</p>
+          <a href="#contact" class="product-link">Consultar <span>&rarr;</span></a>
+        </div>
+
+      </div>
+
+      <div class="products-cta">
+        <p>¿Tienes un proyecto en mente?</p>
+        <a href="mailto:bystepsolutions@gmail.com" class="btn btn-primary">Cuéntanos tu idea</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why-us">
+    <div class="container">
+      <div class="why-grid">
+        <div class="why-content">
+          <span class="section-tag">¿Por qué elegirnos?</span>
+          <h2>Software que funciona, entregas que cumplen</h2>
+          <ul class="why-list">
+            <li>
+              <span class="check-icon">✓</span>
+              <div>
+                <strong>Comunicación directa</strong>
+                <p>Trabajas con el desarrollador, sin intermediarios ni malentendidos.</p>
+              </div>
+            </li>
+            <li>
+              <span class="check-icon">✓</span>
+              <div>
+                <strong>Tecnología moderna</strong>
+                <p>Usamos las herramientas más actuales para garantizar rendimiento y escalabilidad.</p>
+              </div>
+            </li>
+            <li>
+              <span class="check-icon">✓</span>
+              <div>
+                <strong>Soporte post-entrega</strong>
+                <p>No desaparecemos al hacer la entrega. Te acompañamos en el tiempo.</p>
+              </div>
+            </li>
+            <li>
+              <span class="check-icon">✓</span>
+              <div>
+                <strong>Precio justo</strong>
+                <p>Presupuestos transparentes adaptados a cada necesidad y bolsillo.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="why-stats">
+          <div class="stat-card">
+            <span class="stat-num">100%</span>
+            <span class="stat-label">Código propio</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">24h</span>
+            <span class="stat-label">Tiempo de respuesta</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">Web</span>
+            <span class="stat-label">Mobile · IA · Auto</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">Step</span>
+            <span class="stat-label">By step, siempre</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Contáctanos</span>
+        <h2>Hablemos de tu proyecto</h2>
+        <p>Escríbenos y te respondemos en menos de 24 horas.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:bystepsolutions@gmail.com">bystepsolutions@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="2" y1="12" x2="22" y2="12"/>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Web</strong>
+              <a href="https://bystepsolutions.tech" target="_blank">bystepsolutions.tech</a>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Nombre</label>
+              <input type="text" id="name" name="name" placeholder="Tu nombre" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Asunto</label>
+            <input type="text" id="subject" name="subject" placeholder="¿En qué podemos ayudarte?" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="5" placeholder="Describe tu idea o proyecto..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Enviar mensaje &rarr;</button>
+          <div class="form-notice" id="form-notice"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <a href="#home" class="footer-logo">
+          <span class="logo-bracket">&lt;</span>By Step Solutions<span class="logo-bracket">/&gt;</span>
+        </a>
+        <p>Soluciones software que transforman tu negocio, paso a paso.</p>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 By Step Solutions · bystepsolutions.tech</span>
+        <span>Hecho con dedicación en Colombia</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
