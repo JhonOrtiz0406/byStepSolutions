@@ -90,7 +90,7 @@ const revealObserver = new IntersectionObserver(entries => {
 }, { threshold: 0.08 });
 
 document.querySelectorAll(
-  '.service-card, .product-card, .stat-card, .why-list li, .contact-item, .contact-form'
+  '.service-card, .product-card, .pricing-card, .stat-card, .why-list li, .contact-item, .contact-form'
 ).forEach(el => {
   el.style.opacity    = '0';
   el.style.transform  = 'translateY(22px)';
@@ -99,7 +99,7 @@ document.querySelectorAll(
 });
 
 // ---- Staggered reveal for grids ----
-document.querySelectorAll('.services-grid, .products-grid, .why-stats').forEach(grid => {
+document.querySelectorAll('.services-grid, .products-grid, .pricing-grid, .why-stats').forEach(grid => {
   Array.from(grid.children).forEach((child, i) => {
     child.style.transitionDelay = `${i * 0.07}s`;
   });
